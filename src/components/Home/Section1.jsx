@@ -55,7 +55,7 @@ const Section1 = () => {
           );
         })}
       </div>
-      <div className="mt-[70px] max-w-[248px] mb-[21px]">
+      <div className="mt-[60px] max-w-[248px] mb-[21px]">
         <img src={ad} alt="" className="max-w-[248px] object-contain" />
       </div>
       <div className="mr-[7px]">

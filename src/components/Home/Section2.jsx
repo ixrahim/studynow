@@ -15,7 +15,7 @@ const Section2 = () => {
         Welcome back Unique, take your next class
       </p>
 
-      <div className="flex flex-row mt-[36px] mb-[50px]">
+      <div className="flex flex-row mt-[36px] mb-[55px]">
         {links.map((link, idx) => {
           return (
             <NavLink
