@@ -3,7 +3,7 @@ import { courses } from "../helper";
 
 const Section1 = () => {
   return (
-    <div className="mt-[43px]">
+    <div className="">
       {courses.map((course, idx) => {
         return (
           <div

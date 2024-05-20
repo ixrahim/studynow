@@ -7,7 +7,7 @@ import { links2 } from "./helper";
 
 const Section1 = () => {
   return (
-    <div className="bg-[#fcfbf7] pl-[100px] w-[100%] pt-[78px] pb-[81px] max-w-[351px] flex  flex-col h-full">
+    <div className="bg-[#fcfbf7] pl-[100px] w-[100%] pt-[78px] pb-[81px] max-w-[351px] flex  flex-col h-full border-r border-solid border-r-[#51494920]">
       <div className="pb-[70px]">
         <img src={logo} alt="" className="w-[124px]" />
       </div>
@@ -36,7 +36,7 @@ const Section1 = () => {
               className={
                 idx === links2.length - 1
                   ? "flex flex-row "
-                  : "flex flex-row mb-[29px]"
+                  : "flex flex-row mb-[34px]"
               }
             >
               <img src={link.icon} alt="" className="w-[24px] object-contain" />
@@ -44,16 +44,9 @@ const Section1 = () => {
                 href={link.path}
                 className={
                   idx === 1
-                    ? "pt-[2px] pb-[3px] pl-[8px] text-[#454545]"
-                    : "pt-[2px] pb-[3px] pl-[8px] text-[#514949] opacity-[0.5]"
+                    ? "pt-[2px] pl-[8px] text-[#454545]"
+                    : "pt-[2px] pl-[8px] text-[#514949] opacity-[0.5]"
                 }
-                // className={({ isActive, isPending }) =>
-                //   isPending
-                //     ? "pending"
-                //     : isActive
-                //     ? "active"
-                //     : "pt-[2px] pb-[3px] pl-[8px]"
-                // }
                 end
               >
                 <span className="pointer-events-none">{link.name}</span>
@@ -62,14 +55,14 @@ const Section1 = () => {
           );
         })}
       </div>
-      <div className="mt-[50px] max-w-[248px] mb-[21px]">
-        <img src={ad} alt="" className="w-[]" />
+      <div className="mt-[70px] max-w-[248px] mb-[21px]">
+        <img src={ad} alt="" className="max-w-[248px] object-contain" />
       </div>
       <div className="mr-[7px]">
         <p className="text-center text-[18px] leading-[22.97px] font-[700] mb-[8px] text-black">
           Invite Friends
         </p>
-        <p className="text-center text-[14px] leading-[17.86px] font-[400 text-black">
+        <p className="text-center text-[14px] leading-[17.86px] font-[400] text-black">
           Get free month of premium content
         </p>
       </div>
