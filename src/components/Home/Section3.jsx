@@ -10,7 +10,7 @@ const Section3 = () => {
     <div className="pt-[78px] pb-[81px] w-[100%] max-w-[500px] flex flex-col px-[32px]">
       <div className="w-full">
         <div className="max-w-[365px]">
-          <div className="flex w-full justify-between mb-[41px] ">
+          <div className="flex w-full justify-between mb-[41px] pt-[10px]">
             <div className="bg-[#fff] px-[8px] py-[8px] rounded-full flex justify-center items-center">
               <img src={notification_icon} alt="" />
             </div>
