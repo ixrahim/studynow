@@ -5,7 +5,7 @@ import { links } from "./helper";
 const Section2 = () => {
   return (
     <div className="bg-[#fff] pt-[78px] pl-[61px] pr-[63px] pb-[81px] w-[100%] max-w-[589px] h-full">
-      <div className="mb-[46px]">
+      <div className="flex mb-[46px]">
         <p className="text-[42px] leading-[53.59px] text-[#454545] font-[700]">
           My Courses
         </p>

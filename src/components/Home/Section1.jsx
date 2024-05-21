@@ -8,7 +8,7 @@ import { links2 } from "./helper";
 const Section1 = () => {
   return (
     <div className="bg-[#fcfbf7] pl-[100px] w-[100%] pt-[78px] pb-[81px] max-w-[351px] flex  flex-col h-full border-r border-solid border-r-[#51494920]">
-      <div className="pb-[70px]">
+      <div className="pt-[10px] pb-[70px]">
         <img src={logo} alt="" className="w-[124px]" />
       </div>
       <div className="flex py-[12px]">
