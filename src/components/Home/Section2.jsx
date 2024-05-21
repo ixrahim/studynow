@@ -11,9 +11,11 @@ const Section2 = () => {
         </p>
       </div>
 
-      <p className="text-[#514949] text-[18px] font-[400] leading-[18.97px] opacity-[0.8]">
-        Welcome back Unique, take your next class
-      </p>
+      <div className="flex">
+        <p className="text-[#514949] text-[18px] font-[400] leading-[18.97px] opacity-[0.8]">
+          Welcome back Unique, take your next class
+        </p>
+      </div>
 
       <div className="flex flex-row mt-[54px] mb-[45px]">
         {links.map((link, idx) => {

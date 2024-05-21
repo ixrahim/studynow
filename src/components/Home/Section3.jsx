@@ -27,10 +27,12 @@ const Section3 = () => {
               />
             </div>
           </div>
-          <p className="font-[700] text-[24px] leading-[30.62px] text-[#454545]">
-            Milestones
-          </p>
-          <div className="mt-[16px] bg-[#fff] rounded-[10px] pt-[17px] pb-[20px] px-[20px] flex justify-start items-center mb-[56px]">
+          <div className="flex pt-[2px] pb-[3px]">
+            <p className="font-[700] text-[24px] leading-[30.62px] text-[#454545]">
+              Milestones
+            </p>
+          </div>
+          <div className="mt-[40px] bg-[#fff] rounded-[10px] pt-[17px] pb-[20px] px-[20px] flex justify-start items-center mb-[56px]">
             <img src={trophy} alt="" className="w-[76px] h-[83px] mr-[21px]" />
             <div className="h-[75px] flex flex-col items-end justify-end relative">
               <p className="w-full font-[700] text-[18px] leading-[22.97px] text-[#454545]">
