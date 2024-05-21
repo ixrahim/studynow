@@ -5,7 +5,7 @@ import Section3 from "../../components/Home/Section3";
 
 const Home = () => {
   return (
-    <div className="container flex flex-row h-[100vh]">
+    <div className="container flex flex-row h-[960px]">
       <Section1 />
       <Section2 />
       <Section3 />
