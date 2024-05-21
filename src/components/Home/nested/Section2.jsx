@@ -8,7 +8,7 @@ const Section2 = () => {
         return (
           <div
             key={course.id}
-            className={`${course.secondary_color} pt-[15px] pb-[16px] px-[18px] mb-[32px] flex flex-row rounded-[10px] cursor-pointer`}
+            className={`${course.secondary_color} pt-[15px] pb-[16px] px-[18px] mb-[35px] flex flex-row rounded-[10px] cursor-pointer`}
           >
             <div className="w-[126px]  bg-[#fff] mr-[20px]"></div>
             <div className="mb-[1px]">
