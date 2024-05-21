@@ -14,7 +14,7 @@ const Section3 = () => {
             <div className="bg-[#fff] px-[8px] py-[8px] rounded-full flex justify-center items-center">
               <img src={notification_icon} alt="" />
             </div>
-            <div className="bg-[#fff] outline-none border-none rounded-[10px] pr-[27px] pl-[8px] flex items-center h-[44px]">
+            <div className="bg-[#fff] outline-none border-none rounded-[10px]  pl-[8px] flex items-center h-[44px]">
               <img
                 src={search_icon}
                 alt=""
@@ -32,7 +32,7 @@ const Section3 = () => {
               Milestones
             </p>
           </div>
-          <div className="mt-[40px] bg-[#fff] rounded-[10px] pt-[17px] pb-[20px] px-[20px] flex justify-start items-center mb-[56px]">
+          <div className="mt-[20px] bg-[#fff] rounded-[10px] pt-[17px] pb-[20px] px-[20px] flex justify-start items-center mb-[56px]">
             <img src={trophy} alt="" className="w-[76px] h-[83px] mr-[21px]" />
             <div className="h-[75px] flex flex-col items-end justify-end relative">
               <p className="w-full font-[700] text-[18px] leading-[22.97px] text-[#454545]">

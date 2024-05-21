@@ -36,7 +36,7 @@ const Section1 = () => {
               className={
                 idx === links2.length - 1
                   ? "flex flex-row "
-                  : "flex flex-row mb-[34px]"
+                  : "flex flex-row mb-[29px]"
               }
             >
               <img src={link.icon} alt="" className="w-[24px] object-contain" />
